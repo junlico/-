@@ -19,7 +19,7 @@ sudo update-alternatives --config java
 sudo update-alternatives --config java
 ```
 
-OpenJDK 11 is locaed at `/usr/lib/jvm/java-11-openjdk-amd64/bin/java`
+OpenJDK 11 is located at `/usr/lib/jvm/java-11-openjdk-amd64/bin/java`
 
 ```
 sudo nano /etc/environment
