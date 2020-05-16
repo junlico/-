@@ -12,21 +12,36 @@ $ sudo apt update
 $ sudo apt install git
 ```
 
-### Setting
-
-```sh
-$ git config --global user.email "18248972+junlico@users.noreply.github.com"
-
-$ git config --global user.name "junlico"
-```
-
-
 ## Visual Studio Code
 
 ### Installation
 
 ```sh
 $ sudo snap install code --classic
+```
+
+### Setting
+
+```sh
+$ git config --global core.editor "code --wait"
+
+$ git config --global -e
+```
+
+`.gitconfig`
+
+```
+[core]
+	editor = code --wait
+[user]
+	email = 18248972+junlico@users.noreply.github.com
+	name = junlico
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	st = status
+	last = log -1 HEAD
 ```
 
 ## IntelliJ IDEA
