@@ -1,5 +1,15 @@
 # Ubuntu 20.04
 
+## Install DEB package
+
+```sh
+$ sudo apt update
+
+$ sudo apt install gdebi-core
+
+$ sudo gdebi example.deb
+```
+
 ## Git
 
 ### Installation
