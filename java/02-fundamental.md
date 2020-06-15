@@ -8,7 +8,7 @@
 6. [Arithmetic Expressions](#arithmetic-expressions)
 7. [Casting](#casting)
 8. [Math Class](#math-class)
-9. [Formating Numbers](#formating-numbers)
+9. [Formatting Numbers](#formatting-numbers)
 10. [Reading Input](#reading-input)
 
 ## Types
@@ -189,7 +189,7 @@ int floor = (int) Math.floor(1.1F);
 int ran = (int) (Math.random() * 100);
 ```
 
-## Formating Numbers
+## Formatting Numbers
 
 ```java
 import java.text.NumberFormat;
